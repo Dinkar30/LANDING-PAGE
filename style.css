@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+ 
+.header{
+    margin-top: 0px;
+    display: flex;
+   flex-direction: column;
+   background-color: rgb(255, 255, 255)
+     
+}
+.navbar{
+    
+     padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5c7;
+}
+ .items{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+ }
+
+a{
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.search-box{
+   flex:1;
+   padding: 8px;
+   background-color:#ffd9006b;
+}
+
+.search-button{
+    height: 38px;
+    color: rgb(224, 87, 87);
+    background-color: beige;    
+    border-radius: 10px;
+}
+
+  .elements{
+    display: flex;
+    justify-content: space-around;
+  }
+
+   h1{
+    font-size: 48px ;
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px 0px;
+   }
+
+   .logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 2px;
+   }
+
+   .trend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+   }
+
+   h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Trending{
+    display: flex;
+    flex-direction: column;
+    border: 1px darkcyan solid;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px ;
+}
+
+.puchase-button{
+    background-color: #f7f7c4;
+    font-family: sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     letter-spacing: 2px;
+     margin-top: 200px;
+     height: 200px;
+     border-top: 1px solid #2c3e50;
+     background-color: #f7f7c4;
+}
